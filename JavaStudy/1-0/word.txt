@@ -1,0 +1,4 @@
+IT…Internet technologyの略。インターネットなどの通信とコンピュータとを駆使する情報技術。
+ICT…Information and Communication Technologyの略。情報通信技術。IT技術を使ってどのように人々の暮らしを豊かにしていくか」という活用方法に関する考え方。
+IoT…Internet of Thingsの略。モノのインターネット。モノがインターネット経由で通信することを意味する。IoT家電など
+
