@@ -14,7 +14,7 @@ public class Task1_5 {
 
         // ② for文を使って①で作成した配列を出力しなさい。
         for (int i = 0; i < fruits.length; i++) {
-            System.out.println("fruits[" + i + "] ... " + fruits[i]);
+            System.out.println(fruits[i]);
         }
 
         // ③ 以下のwhile文の処理について、何をしているのかコメントを記入してください。
@@ -26,8 +26,21 @@ public class Task1_5 {
           System.out.print(i);
           i++;
         }
+        
         System.out.println();
 
+
+        for (int n = 1; n <= 9; n++) {
+            System.out.print(n + " ||");
+
+            for (int j = 1; j <= 9; j++) {
+                
+                    System.out.print(" " + (n * j) + " |");
+               
+            }
+                  
+            System.out.println();
+        }
         /* ④ 行の最初に「段数」と「||」を追加したものを表示させるプログラムを作成しなさい。
         *     1 || 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
         *     2 || 2 | 4 | 6 | 8 | 10 | 12 | 14 | 16 | 18 |
